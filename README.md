@@ -16,7 +16,7 @@ We have also included the slides for our project.
 Can you determine if two individuals are related?
 
 ## Models Used
-  1. Targeted Siamese Model. The irst layer of the model uses InceptionResnetV1, pre-trained on the ‘vggface2’ dataset for obtaining the base encodings. 
+  1. Targeted Siamese Model. The first layer of the model uses InceptionResnetV1, pre-trained on the ‘vggface2’ dataset for obtaining the base encodings. 
   2. Non-Correlated Siamese Model
   3. Vision Transformer
 
