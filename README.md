@@ -1,5 +1,5 @@
 
-# Welcome to our SC2207 Course Project
+# Welcome to our SC4000 Course Project
 ## About
 
 This is a project for SC4000 (Machine Learning) where we worked on the Kaggle problem 'Recognizing Faces in the Wild'. 
