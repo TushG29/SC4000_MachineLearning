@@ -9,6 +9,9 @@ Link: https://www.kaggle.com/c/recognizing-faces-in-the-wild. We have:
   3. Implemented a SiameseNet wherein the image encoder used by it is a pre-trained Vision Transformer (ViT). The final layers of ViT were fine-tuned for kinship identification, with the majority of ViT parameters locked throughout training to preserve generic features and avoid overfitting. 
   4. Achieved a public score of 0.897 after performing weighted ensemble learning on the above three models
 
+
+We have also included the slides for our project. 
+
 ## Problem Definition
 Can you determine if two individuals are related?
 
