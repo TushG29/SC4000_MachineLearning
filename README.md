@@ -15,7 +15,7 @@ Can you determine if two individuals are related?
 ## Models Used
   1. Targeted Siamese Model. The irst layer of the model uses InceptionResnetV1, pre-trained on the ‘vggface2’ dataset for obtaining the base encodings. 
   2. Non-Correlated Siamese Model
-  3. Neural Networks
+  3. Vision Transformer
 
 ## Challenges
   1. The images of people are not in a standardised format, thus the model may learn features which are irrelevant to the kinship recognition task. For example:
