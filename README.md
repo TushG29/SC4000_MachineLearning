@@ -18,12 +18,13 @@ Can you determine if two individuals are related?
   3. Vision Transformer
 
 ## Challenges
-  1. The images of people are not in a standardised format, thus the model may learn features which are irrelevant to the kinship recognition task. For example:
-     i) The images are shot at different locations, and shadows are present on the faces of the people due to poor and uneven lighting.
-     ii) There are numerous images of people wearing caps, and other objects close to their face which can mislead the model into finding non-kins similar.
-     iii) People of the same age, especially children, or the same gender, due to features like facial hair, may look similar despite being from different families.
-  2. The images provided in the sample have varying clarity, thus our solution must be flexible enough to detect facial features across a wide variety of photo qualities.
-  3. Moreover, training_relationships.csv only contains positive examples of people who are kins. Thus appropriate size and sample of negative pairs must be created.
+1. The images of people are not in a standardised format, thus the model may learn features which are irrelevant to the kinship recognition task. For example:
+   i) The images are shot at different locations, and shadows are present on the faces of the people due to poor and uneven lighting.  
+   ii) There are numerous images of people wearing caps, and other objects close to their face which can mislead the model into finding non-kins similar.  
+   iii) People of the same age, especially children, or the same gender, due to features like facial hair, may look similar despite being from different families.
+2. The images provided in the sample have varying clarity, thus our solution must be flexible enough to detect facial features across a wide variety of photo qualities.
+3. Moreover, training_relationships.csv only contains positive examples of people who are kins. Thus appropriate size and sample of negative pairs must be created.
+
 
 ## Conclusion
   1. The incorporation of negative sampling introduces a new dimension to the learning process, allowing the model to better differentiate between kinship and non-kinship relations. The use of Vision Transformers, a cutting-edge technology in image processing, further refines the model's ability to capture and analyse facial features crucial for kinship detection. 
